@@ -1,6 +1,6 @@
 package primorska.mandlbrotset;
 
-import primorska.mandlbrotset.sequential.SequentialRenderer;
+/*import primorska.mandlbrotset.sequential.SequentialRenderer;
 
 public class MainApp {
     public static void main(String[] args) {
@@ -27,3 +27,18 @@ public class MainApp {
         }
     }
 }
+
+public class MainApp {
+    public static void main(String[] args) {
+        MandelbrotApp.main(args);
+    }
+}
+*/
+
+
+public class MainApp {
+    public static void main(String[] args) {
+        MandelbrotApp.launch(MandelbrotApp.class, args);
+    }
+}
+
